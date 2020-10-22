@@ -1,4 +1,6 @@
-let array = [
+let firstArray = [23, 45, 62, 1, 21, 3, 54];
+
+let secondArray = [
     {
         name: "Felicia",
         age: 12
@@ -26,16 +28,28 @@ let array = [
 ]
 
 //Del 1
-//Skriv ut alla namn som är över 18
+//Sortera första listan efter nummerordning
+
 
 //Del 2
-//Skriv ut alla som är under 18
+//Skriv ut alla siffror som är över 5 från första listan
+
 
 //Del 3
-//Sortera objekten efter ålder, yngst först
+//Skriv ut alla namn som är över 18 från andra listan
 
-//Del 3.5
-//Sortera objekten efter ålder, äldst först
 
 //Del 4
-//Sortera objekten i bokstavsordning efter deras namn
+//Skriv ut alla som är under 18 från andra listan
+
+
+//Del 5
+//Sortera objekten efter ålder från andra listan, yngst först
+
+
+//Del 6
+//Sortera objekten efter ålder från andra listan, äldst först
+
+
+//Del 7
+//Sortera objekten i bokstavsordning efter deras namn från andra listan
