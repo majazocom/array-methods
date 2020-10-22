@@ -28,7 +28,8 @@ let secondArray = [
 ]
 
 //Del 1
-//Sortera första listan efter nummerordning
+//Sortera första listan efter nummerordning minst -> störst
+firstArray.sort((a,b)=>a-b);
 
 
 //Del 2
@@ -36,7 +37,7 @@ let secondArray = [
 
 
 //Del 3
-//Skriv ut alla namn som är över 18 från andra listan
+//Skriv ut alla namn som är över eller är 18 från andra listan
 
 
 //Del 4
