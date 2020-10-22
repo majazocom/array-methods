@@ -32,4 +32,10 @@ let array = [
 //Skriv ut alla som är under 18
 
 //Del 3
-//Sortera objekten efter ålder, minst först
+//Sortera objekten efter ålder, yngst först
+
+//Del 3.5
+//Sortera objekten efter ålder, äldst först
+
+//Del 4
+//Sortera objekten i bokstavsordning efter deras namn
