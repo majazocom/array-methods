@@ -98,12 +98,52 @@ firstArray.sort((a,b)=>a-b);
 //     return a-b;
 // })
 
-console.log(secondArray.sort((a,b) => a.age - b.age));
+// let ascending = [];
+
+// ascending = secondArray.sort((a,b) => a.age - b.age);
+
+// console.log(ascending);
 
 //Del 6
 //Sortera objekten efter ålder från andra listan, äldst först
 
-console.log(secondArray.sort((a,b) => b.age - a.age));
+// let storstForst = [];
+
+// storstForst = secondArray.sort((a,b) => b.age - a.age);
+
+// console.log(storstForst);
+// let nameList = [];
+
+// for(let person of storstForst) {
+//     nameList.push(person.name);
+// }
+// console.log(nameList);
 
 //Del 7
 //Sortera objekten i bokstavsordning efter deras namn från andra listan
+
+let fruits = ["banana", "pear", "pineapple", "apple", "orange"];
+
+fruits.sort();
+console.log(fruits);
+
+
+let alphaNumeric = [];
+//alphaNumeric = secondArray.sort((a, b) => a.name < b.name ? -1 : 1 );
+
+// alphaNumeric = secondArray.sort(function(a,b) {
+//     let name1 = a.name;
+//     let name2 = b.name;
+
+//     if(name1 < name2) {
+//         //if name1 is greater than name2
+//         return -1;
+//     } else if (name1 > name2) {
+//         //if name2 is greater than name1
+//         return 1;
+//     }
+// })
+
+alphaNumeric = secondArray.sort((a,b) => a.name.localeCompare(b.name));
+
+console.log(alphaNumeric);
